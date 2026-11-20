@@ -8,8 +8,9 @@
   #v(1.2em)
   #set text(size: 10pt)
   资料个人整理，难免疏漏，欢迎大家私聊指正，或者提 Issue/PR。祝大家期末顺利！
-  #v(1.6em)
-  邮箱：#text(fill: rgb("#1f5fa8"), link("mailto:huoyuuu@gmail.com")[huoyuuu\@gmail.com]) \
+  #v(1.2em)
+  邮箱：#text(fill: rgb("#1f5fa8"), link("mailto:huoyuuu@gmail.com")[huoyuuu\@gmail.com])
+  #v(1.2em)
   GitHub：#text(fill: rgb("#1f5fa8"), link("https://github.com/Huoyuuu/2026-optimization-exam-solutions")[https://github.com/Huoyuuu/2026-optimization-exam-solutions])
 ]
 #v(2cm)
