@@ -1,0 +1,7 @@
+Temp/
+素材/
+.venv/
+*.pdf
+*.stackdump
+__pycache__/
+.serena/

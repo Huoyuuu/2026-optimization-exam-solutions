@@ -1,0 +1,25 @@
+#import "/book/lib.typ": *
+
+#align(center, cetz.canvas(length: 0.8cm, {
+  import cetz.draw: *
+  grid((-2.0, -2.0), (3.0, 3.0), step: (1.0, 1.0), stroke: 0.3pt + luma(190))
+  line((0, -2.0), (0, 3.3), mark: (end: ">"), stroke: 0.5pt)
+  content((0, 3.65), text(size: 8pt, $x_2$))
+  line((-2.0, 0), (3.3, 0), mark: (end: ">"), stroke: 0.5pt)
+  content((3.7, 0), text(size: 8pt, $x_1$))
+  line((-1.0, 1.0), (0.0, 0.0), stroke: 0.9pt, mark: (end: ">", scale: 0.6))
+  line((0.0, 0.0), (1.0, -1.0), stroke: (thickness: 0.6pt, dash: "dashed"), mark: (end: ">", scale: 0.5))
+  rect((-1.22, 0.78), (-0.78, 1.22), stroke: 0.6pt, fill: white)
+  circle((-1.0, 1.0), radius: 0.09, fill: black, stroke: none)
+  circle((0.0, 1.0), radius: 0.12, stroke: 0.5pt, fill: white)
+  circle((0.0, 2.0), radius: 0.12, stroke: 0.5pt, fill: white)
+  rect((-0.22, -0.22), (0.22, 0.22), stroke: 0.6pt, fill: white)
+  circle((0.0, 0.0), radius: 0.09, fill: black, stroke: none)
+  rect((0.8, -1.2), (1.2, -0.8), stroke: 0.6pt, fill: white)
+  circle((2.0, -1.0), radius: 0.12, stroke: 0.5pt, fill: white)
+  circle((0.0, -1.0), radius: 0.12, stroke: 0.5pt, fill: white)
+  circle((1.0, 0.0), radius: 0.12, stroke: 0.5pt, fill: white)
+  circle((-1.0, 0.0), radius: 0.12, stroke: 0.5pt, fill: white)
+  content((-1.0, 1.0), text(size: 7.5pt, $b_0$), anchor: "south-west", padding: 0.12)
+  content((0.0, 0.0), text(size: 7.5pt, $b_1$), anchor: "south-west", padding: 0.12)
+}))
