@@ -1,5 +1,5 @@
-![做法和常见问答](assets/preview-qa.png)
 ![预览](assets/preview.png)
+![做法和常见问答](assets/preview-qa.png)
 ![真题解答](assets/preview-solution.png)
 ![历年试卷数字版](assets/preview-exam.png)
 
